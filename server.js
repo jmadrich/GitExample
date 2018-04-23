@@ -8,7 +8,7 @@ application.get('*', (req, res, next) => {
 
 application.get('/hello', (req, res, next) => {
     res.status(200).json({
-        'msg': 'Hello JEDI\'s'
+        'msg': 'Thomas gij bent een faggot'
     });
 });
 
