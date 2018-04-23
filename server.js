@@ -12,7 +12,9 @@ application.get('/hello', (req, res, next) => {
     });
 });
 
+const port = process.env.PORT;
 
-application.listen(8080, () => {
-    console.log("The magic happens at port " + 8080);
+
+application.listen(port, () => {
+    console.log("The magic happens at port " + port);
 });
